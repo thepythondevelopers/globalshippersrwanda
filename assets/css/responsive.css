@@ -1,0 +1,205 @@
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .signup {
+    max-width: 90%;
+  }
+  .mob-bar {
+    display: block;
+  }
+  .sidebar {
+    min-width: 0;
+    max-width: 0;
+  }
+  .sidebar.hide_sidebar {
+    width: 250px;
+    min-width: 250px;
+  }
+  .right-bar {
+    width: 100%;
+    flex: 0 0 100%;
+}
+  .right-bar.expand_rightbar {
+    width: calc(100% - 250px);
+    flex: 0 0 calc(100% - 250px);
+}
+}
+
+@media (max-width: 767px) {
+  .signup {
+    max-width: 100%;
+  }
+  .dashboard-footer p {
+    text-align: center;
+  }
+  .footer-lists {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .notification-div .list-group-item i {
+    padding-left: 0;
+  }
+  .breadcrumb-item+.breadcrumb-item {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+/* .dashboard-header ul.navbar-nav li a {
+    font-size: 12px;
+} */
+}
+
+@media (max-width: 575px) {
+  .notification-div .list-group-item i {
+    font-size: 20px;
+  }
+  .dataTables_paginate .pagination {
+    float: left;
+    margin-top: 5px;
+  }
+  .inter-createDiv h2 {
+    font-size: 1.25rem;
+  }
+.navbar {
+    margin-bottom: 0;
+}
+.mob-bar i {
+    font-size: 20px;
+}
+.dashboard-header ul.navbar-nav li {
+    padding: 0;
+}
+.dashboard-header ul.navbar-nav li a img {
+    height: 25px;
+    width: 25px;
+}
+.forgot-page .login {
+    margin-bottom: 30px;
+}
+.login {
+    margin: 30px auto auto;
+    padding: 20px 20px 30px;
+}
+.signup h2 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.payment-heading h1, .invite-page h1 {
+    font-size: 20px;
+}
+.credit-card-box {
+    padding: 10px;
+}
+.credit-card-box .control-label, .invite-page p {
+    font-size: 14px;
+}
+.credit-card-box .form-control {
+    height: 40px;
+}
+.invite-page img {
+    max-width: 65px;
+}
+.invite-page br {
+    display: none;
+}
+.invite-page .form-control {
+    margin-right: 10px;
+    max-width: 195px;
+}
+.membership-div h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.member-heading p {
+    font-size: 13px;
+}
+.member-heading {
+    max-width: 100%;
+    padding: 20px 0 0!important;
+}
+.membership-div ul.nav-tabs {
+    margin: 2rem auto 1rem;
+}
+.member-plan-box p {
+    font-size: 14px;
+}
+.mprice {
+    font-size: 2.5rem;
+}
+.member-plan-box button {
+    margin-top: 0.25rem;
+    font-size: 12px;
+}
+}
+
+@media (max-width: 480px) {
+  .progtrckr li a h4 {
+    font-size: 10px;
+  }
+  .progtrckr li.progtrckr-todo:before {
+    font-size: 2.25em;
+  }
+  .progtrckr li.progtrckr-done:before {
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5em;
+  }
+  .image-uploader .upload-text span {
+    font-size: 10px;
+  }
+  .input-images {
+    margin-bottom: 20px;
+  }
+  .existadd,
+  .createnewaddrs {
+    margin-bottom: 5px;
+  }
+  .step2show {
+    margin-bottom: 20px;
+  }
+  .dashboard-header a.navbar-brand {
+    padding: 0;
+  }
+  .navbar .navbar-brand img {
+    max-width: 40px;
+}
+.dashboard-header ul.navbar-nav li a {
+    /* font-size: 10px; */
+    padding: 0;
+}
+.cart-img svg {
+    height: 15px;
+    width: 15px;
+}
+.logo-img img {
+    width: 60px;
+}
+.important-menus ul li a, .dashboard-footer ul li {
+    font-size: 10px;
+}
+ /* .progtrckr li:before {
+     bottom: -2.8em;
+ }
+ .progtrckr li.progtrckr-todo:before {
+    bottom: -47px;
+} */
+.logo-slider .item figure {
+  height: 60px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+.logo-slider .item span {
+  font-size: 18px;
+}
+.dashboard-header {
+  padding: 10px 1.25rem;
+}
+.cart-value {
+  width: 1rem;
+  height: 1rem;
+}
+.dashboard-header ul.navbar-nav li a {
+  font-size: 14px;
+}
+}
